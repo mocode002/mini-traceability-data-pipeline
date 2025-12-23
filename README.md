@@ -18,7 +18,7 @@ The pipeline is fully automated, modular, and orchestrated via a central script.
 ## Data Extraction Strategy & Limitations
 This project implements a flexible data extraction module (`scrape_oar.py`) that adapts to available resources:
 
-1.  **Local CSV Mode (Preferred):** * The Open Supply Hub limits free accounts to **5,000 downloaded records per year**.
+1.  **Local CSV Mode (Preferred):**  The Open Supply Hub limits free accounts to **5,000 downloaded records per year**.
     * I have downloaded the available data for the target regions.
     * **Note:** Because of this strict limit, the filtered dataset contains approx **3,700 records** for the target countries (Morocco, Spain, Portugal, Italy, France, Greece, Malta), which is below the theoretical 10k target. The pipeline threshold (`MIN_RECORDS`) has been adjusted to `3000` to accommodate this real-world constraint while preserving data integrity.
 
