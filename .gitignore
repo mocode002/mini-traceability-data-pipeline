@@ -1,0 +1,34 @@
+# --- Python Standard ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Project Specific: Input Data ---
+# source file
+source_oar_data.csv
+
+# raw scraped/generated data
+raw_oar_data.json
+
+# --- Project Specific: Generated Outputs ---
+/cleaned_companies.csv
+/cleaned_facilities.csv
+/company_facilities.csv
+/ai_duplicates.csv
+# analytics_output/
+# final_delivery/
+
+# --- Logs ---
+*.log
+pipeline.log
