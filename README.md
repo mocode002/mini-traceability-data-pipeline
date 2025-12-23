@@ -30,8 +30,8 @@ This project implements a flexible data extraction module (`scrape_oar.py`) that
 
 1.  **Clone the repository:**
     ```bash
-    git clone <url>
-    cd <repo-name>
+    git clone https://github.com/mocode002/mini-traceability-data-pipeline.git
+    cd mini-traceability-data-pipeline
     ```
 
 2.  **Install dependencies:**
