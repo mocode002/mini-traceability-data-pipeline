@@ -22,9 +22,9 @@ This project implements a flexible data extraction module (`scrape_oar.py`) that
     * I have downloaded the available data for the target regions.
     * **Note:** Because of this strict limit, the filtered dataset contains approx **3,700 records** for the target countries (Morocco, Spain, Portugal, Italy, France, Greece, Malta), which is below the theoretical 10k target. The pipeline threshold (`MIN_RECORDS`) has been adjusted to `3000` to accommodate this real-world constraint while preserving data integrity.
 
-2.  **Mock Data Mode:** * Included as a fallback. If no CSV is present, the script generates 10,000+ synthetic records to demonstrate the pipeline's ability to scale to higher volumes.
+2.  **Mock Data Mode:**  Included as a fallback. If no CSV is present, the script generates 10,000+ synthetic records to demonstrate the pipeline's ability to scale to higher volumes.
 
-3.  **Live API Mode:** * Fully implemented but requires an API Token.
+3.  **Live API Mode:**  Fully implemented but requires an API Token.
 
 ## Setup & Installation
 
