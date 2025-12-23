@@ -1,0 +1,6 @@
+requests
+matplotlib
+scikit-learn
+sentence-transformers
+numpy
+python-dotenv
